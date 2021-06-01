@@ -6,7 +6,7 @@
 /turf/open/floor/plating,
 /area/commons/dorms)
 "ao" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/maintenance/department/crew_quarters/dorms)
 "as" = (
 /obj/effect/turf_decal/siding/thinplating/corner,
@@ -448,7 +448,7 @@
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
 "ij" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/cargo)
 "in" = (
 /obj/structure/table,
@@ -578,6 +578,10 @@
 /obj/machinery/vending/cigarette,
 /turf/open/floor/wood,
 /area/service/cafeteria)
+"jX" = (
+/obj/machinery/gravity_generator/main,
+/turf/open/floor/iron,
+/area/hallway/secondary/entry)
 "kw" = (
 /obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock,
@@ -930,7 +934,7 @@
 /turf/open/floor/wood,
 /area/service/cafeteria)
 "qV" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/medical)
 "qZ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -954,12 +958,12 @@
 /area/space)
 "rt" = (
 /obj/structure/lattice,
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/space)
 "rz" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/space)
 "rE" = (
 /obj/structure/railing,
@@ -1050,7 +1054,7 @@
 	roundstart_template = null;
 	width = 5
 	},
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/space)
 "uc" = (
 /obj/machinery/door/airlock{
@@ -1147,7 +1151,7 @@
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
 "uY" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/space)
 "vg" = (
 /obj/effect/turf_decal/siding/wood{
@@ -2045,7 +2049,7 @@
 /turf/open/floor/wood,
 /area/service/cafeteria)
 "Lo" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/science)
 "Lr" = (
 /turf/closed/wall,
@@ -2094,7 +2098,7 @@
 /turf/open/floor/wood,
 /area/service/cafeteria)
 "MA" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/command/bridge)
 "MI" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
@@ -2345,7 +2349,7 @@
 /turf/open/floor/wood,
 /area/service/cafeteria)
 "Rf" = (
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/engineering/atmos)
 "Rg" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -2555,7 +2559,7 @@
 	roundstart_template = /datum/map_template/shuttle/labour/box;
 	width = 9
 	},
-/turf/open/openspace,
+/turf/open/openspace/airless/planetary,
 /area/space)
 "Uj" = (
 /obj/effect/turf_decal/siding/thinplating{
@@ -94608,7 +94612,7 @@ zL
 YH
 Om
 pj
-pj
+jX
 pj
 eD
 mP
