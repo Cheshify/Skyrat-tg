@@ -3253,7 +3253,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/commons/storage/art)
+/area/commons/dorms)
 "LG" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 1
@@ -3382,6 +3382,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"MO" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/grass,
+/area/commons/dorms)
 "MP" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
@@ -33170,7 +33174,7 @@ jT
 Ki
 Ki
 Ki
-Ki
+is
 dg
 dg
 dg
@@ -33427,19 +33431,19 @@ jT
 Ki
 Ki
 Ki
-Ki
+is
 dg
 dg
 dg
+is
+MO
+MO
+is
 dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+is
+MO
+MO
+is
 dg
 dg
 rE
@@ -33684,7 +33688,7 @@ jT
 Ki
 Ki
 Ki
-Ce
+is
 Ce
 dg
 dg
