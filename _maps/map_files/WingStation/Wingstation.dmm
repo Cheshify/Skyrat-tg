@@ -392,8 +392,11 @@
 /turf/open/floor/iron,
 /area/commons/storage/primary)
 "eu" = (
-/turf/open/floor/iron/chapel,
-/area/service/chapel/main)
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "ev" = (
 /turf/open/floor/glass/reinforced,
 /area/hallway/secondary/exit/departure_lounge)
@@ -698,11 +701,10 @@
 /turf/open/floor/iron,
 /area/security/checkpoint/escape)
 "hv" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 4
+/turf/open/floor/iron/chapel{
+	dir = 1
 	},
-/turf/closed/wall,
-/area/hallway/secondary/exit/departure_lounge)
+/area/service/chapel/main)
 "hw" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "construction";
@@ -1007,6 +1009,15 @@
 /obj/effect/turf_decal/trimline/yellow/line,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"ki" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "kk" = (
 /turf/closed/wall,
 /area/hallway/primary/central/aft)
@@ -1581,6 +1592,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/main)
+"qt" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/structure/railing,
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "qv" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron,
@@ -2608,9 +2625,7 @@
 /turf/open/floor/iron/dark,
 /area/commons/vacant_room/commissary)
 "AS" = (
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
+/turf/open/floor/iron/chapel,
 /area/service/chapel/main)
 "AT" = (
 /obj/machinery/door/airlock/maintenance{
@@ -2653,6 +2668,13 @@
 /obj/item/bedsheet,
 /turf/open/floor/iron/dark,
 /area/space)
+"Bm" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "Bq" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -3390,7 +3412,7 @@
 /area/service/lawoffice)
 "If" = (
 /turf/open/floor/iron/chapel{
-	dir = 8
+	dir = 4
 	},
 /area/service/chapel/main)
 "Iu" = (
@@ -3444,7 +3466,7 @@
 /area/service/library)
 "IM" = (
 /turf/open/floor/iron/chapel{
-	dir = 1
+	dir = 8
 	},
 /area/service/chapel/main)
 "IN" = (
@@ -3993,6 +4015,9 @@
 	dir = 6
 	},
 /obj/structure/railing,
+/obj/structure/chair{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "NZ" = (
@@ -4987,11 +5012,19 @@
 	icon_state = "wood-broken5"
 	},
 /area/service/library)
-"Wn" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 6
+"Wl" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/structure/railing,
+/obj/structure/chair{
+	dir = 4
 	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
+"Wn" = (
 /obj/machinery/disposal/bin,
+/obj/effect/turf_decal/trimline/neutral/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "Wq" = (
@@ -98371,12 +98404,12 @@ WH
 WH
 TF
 eR
-Om
+eu
 pj
 nR
 jG
 nR
-jG
+LG
 pj
 pj
 pj
@@ -98633,7 +98666,7 @@ vK
 vK
 vK
 vK
-pj
+Om
 ev
 ev
 ev
@@ -98890,7 +98923,7 @@ xD
 qn
 Uw
 vK
-fj
+Om
 ev
 pE
 lK
@@ -100175,7 +100208,7 @@ Gn
 yc
 yc
 gE
-jG
+Om
 ev
 PM
 gG
@@ -100432,7 +100465,7 @@ yc
 yc
 yc
 KX
-pj
+ki
 ev
 ev
 ev
@@ -100689,9 +100722,9 @@ yc
 yc
 yc
 gE
+eu
+Sl
 fj
-pj
-pj
 pj
 pj
 nR
@@ -100946,9 +100979,9 @@ JE
 JE
 JE
 vK
+vK
+vK
 Om
-pj
-pj
 pj
 pj
 pj
@@ -101197,15 +101230,15 @@ IV
 IV
 xh
 vK
-IM
-If
 JE
+JE
+hv
 IM
-If
+JE
+hv
+IM
 vK
 Om
-pj
-pj
 pj
 pj
 pj
@@ -101454,15 +101487,15 @@ dS
 dS
 mO
 vK
-AS
-eu
 JE
+JE
+If
 AS
-eu
+JE
+If
+AS
 vK
 Om
-pj
-pj
 Iz
 Nj
 Nj
@@ -101711,15 +101744,15 @@ at
 at
 Dq
 vK
-IM
-If
 JE
+JE
+hv
 IM
-If
+JE
+hv
+IM
 vK
 Om
-pj
-pj
 ES
 FP
 FP
@@ -101968,16 +102001,16 @@ jT
 jT
 jT
 vK
-AS
-eu
 JE
+JE
+If
 AS
-eu
+JE
+If
+AS
 vK
-eR
-eR
-pj
-ES
+Om
+Wl
 FP
 FP
 FP
@@ -102222,19 +102255,19 @@ uY
 uY
 uY
 jT
-YL
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-eR
-pj
-ES
+JE
+JE
+JE
+JE
+JE
+hv
+IM
+JE
+hv
+IM
+vK
+Om
+qt
 FP
 FP
 FP
@@ -102479,18 +102512,18 @@ uY
 uY
 uY
 jT
-YL
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-eR
-EK
+JE
+JE
+JE
+JE
+JE
+If
+AS
+JE
+If
+AS
+vK
+Bm
 NQ
 FP
 FP
@@ -102736,17 +102769,17 @@ uY
 uY
 uY
 jT
-YL
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-hv
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+vK
 Wn
 eR
 nz
@@ -102992,18 +103025,18 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-eR
+jT
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+vK
 eR
 eR
 Fn
@@ -103249,18 +103282,18 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+JE
+vK
 uY
 jT
 jT
@@ -103506,18 +103539,18 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
 uY
 jT
 Nr
