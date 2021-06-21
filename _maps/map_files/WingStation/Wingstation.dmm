@@ -615,8 +615,11 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "gE" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel"
+	},
+/turf/open/floor/iron/dark,
 /area/service/chapel/main)
 "gG" = (
 /obj/effect/turf_decal/stripes/line{
@@ -702,7 +705,7 @@
 /area/security/checkpoint/escape)
 "hv" = (
 /turf/open/floor/iron/chapel{
-	dir = 1
+	dir = 8
 	},
 /area/service/chapel/main)
 "hw" = (
@@ -1465,6 +1468,10 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"ps" = (
+/obj/structure/altar_of_gods,
+/turf/open/floor/iron/dark,
+/area/service/chapel/main)
 "pw" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/neutral{
@@ -1733,11 +1740,9 @@
 	},
 /area/service/library)
 "sg" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/turf/open/floor/carpet,
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
 /area/service/chapel/main)
 "sj" = (
 /obj/machinery/flasher/directional/west{
@@ -1898,6 +1903,12 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
 /area/hallway/secondary/entry)
+"tu" = (
+/obj/structure/table/wood/fancy,
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/service/chapel/main)
 "tz" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -1924,6 +1935,7 @@
 /area/service/library)
 "tX" = (
 /obj/structure/table/wood,
+/obj/item/storage/book/bible,
 /obj/item/storage/book/bible,
 /turf/open/floor/carpet,
 /area/service/chapel/main)
@@ -1998,6 +2010,15 @@
 /obj/item/modular_computer/tablet/preset/cheap,
 /turf/open/floor/wood,
 /area/service/cafeteria)
+"uw" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "uz" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -2450,6 +2471,13 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
+"zi" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/corner,
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "zj" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -2625,7 +2653,12 @@
 /turf/open/floor/iron/dark,
 /area/commons/vacant_room/commissary)
 "AS" = (
-/turf/open/floor/iron/chapel,
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
 /area/service/chapel/main)
 "AT" = (
 /obj/machinery/door/airlock/maintenance{
@@ -2669,12 +2702,11 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "Bm" = (
-/obj/effect/turf_decal/trimline/neutral/filled/corner,
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 1
+/obj/structure/table/wood/fancy,
+/turf/open/floor/iron/chapel{
+	dir = 4
 	},
-/turf/open/floor/iron,
-/area/hallway/secondary/exit/departure_lounge)
+/area/service/chapel/main)
 "Bq" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -2760,6 +2792,9 @@
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/trimline/red/filled/corner,
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "Cl" = (
@@ -3343,6 +3378,11 @@
 /obj/structure/displaycase/trophy,
 /turf/open/floor/wood,
 /area/service/library)
+"Ht" = (
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/service/chapel/main)
 "Hv" = (
 /obj/machinery/camera/autoname{
 	dir = 8
@@ -3411,9 +3451,10 @@
 /turf/open/floor/iron,
 /area/service/lawoffice)
 "If" = (
-/turf/open/floor/iron/chapel{
+/obj/structure/chair/pew/left{
 	dir = 4
 	},
+/turf/open/floor/iron/chapel,
 /area/service/chapel/main)
 "Iu" = (
 /obj/structure/closet/emcloset,
@@ -3465,8 +3506,9 @@
 /turf/open/floor/carpet/royalblue,
 /area/service/library)
 "IM" = (
+/obj/structure/table/wood/fancy,
 /turf/open/floor/iron/chapel{
-	dir = 8
+	dir = 1
 	},
 /area/service/chapel/main)
 "IN" = (
@@ -3685,14 +3727,14 @@
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 8
 	},
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "KX" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Chapel"
-	},
-/turf/open/floor/iron/dark,
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
 /area/service/chapel/main)
 "KY" = (
 /obj/effect/turf_decal/siding/thinplating{
@@ -4135,6 +4177,18 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"Pj" = (
+/turf/open/floor/iron/chapel,
+/area/service/chapel/main)
+"Pk" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "Pr" = (
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 4
@@ -4270,9 +4324,11 @@
 /turf/closed/wall,
 /area/service/cafeteria)
 "QA" = (
-/obj/item/candle,
 /obj/machinery/light_switch/directional/south,
 /obj/structure/table/wood,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
 /turf/open/floor/iron/dark,
 /area/service/chapel/main)
 "QH" = (
@@ -4687,6 +4743,10 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"TW" = (
+/obj/structure/table/wood/fancy,
+/turf/open/floor/iron/chapel,
+/area/service/chapel/main)
 "TZ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 1
@@ -5022,9 +5082,6 @@
 /area/hallway/secondary/exit/departure_lounge)
 "Wn" = (
 /obj/machinery/disposal/bin,
-/obj/effect/turf_decal/trimline/neutral/filled/end{
-	dir = 4
-	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "Wq" = (
@@ -5264,6 +5321,14 @@
 /obj/structure/chair/office,
 /turf/open/floor/wood,
 /area/service/library)
+"Yd" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/item/candle,
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "Yi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -5273,6 +5338,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Yj" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/candle,
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "Yr" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -5386,6 +5459,15 @@
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/escape)
+"Zx" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "Zy" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -98405,10 +98487,10 @@ WH
 TF
 eR
 eu
-pj
-nR
-jG
-nR
+Sl
+Pk
+Zx
+Pk
 LG
 pj
 pj
@@ -98419,8 +98501,8 @@ DX
 NJ
 NJ
 NJ
-FA
-pj
+zi
+fj
 pj
 MX
 EK
@@ -99694,7 +99776,7 @@ yc
 yc
 Cp
 vK
-Om
+Yj
 ev
 zY
 Ua
@@ -99949,8 +100031,8 @@ tX
 yc
 yc
 yc
-sg
-vK
+yc
+KX
 Om
 ev
 nQ
@@ -100201,7 +100283,7 @@ ee
 Ns
 Ns
 vO
-vK
+gE
 yc
 yc
 Gn
@@ -100458,7 +100540,7 @@ dg
 dg
 dg
 dg
-KX
+vK
 yc
 yc
 yc
@@ -100721,10 +100803,10 @@ yc
 yc
 yc
 yc
-gE
-eu
-Sl
+vK
+Yd
 fj
+pj
 pj
 pj
 nR
@@ -100732,8 +100814,8 @@ yg
 yv
 yv
 yv
-pa
-pj
+uw
+jG
 pj
 MX
 jf
@@ -100980,8 +101062,8 @@ JE
 JE
 vK
 vK
-vK
 Om
+pj
 pj
 pj
 pj
@@ -101231,14 +101313,14 @@ IV
 xh
 vK
 JE
-JE
+sg
 hv
-IM
 JE
+sg
 hv
-IM
 vK
 Om
+pj
 pj
 pj
 pj
@@ -101488,14 +101570,14 @@ dS
 mO
 vK
 JE
-JE
-If
 AS
-JE
 If
+JE
 AS
+If
 vK
 Om
+pj
 Iz
 Nj
 Nj
@@ -101745,14 +101827,14 @@ at
 Dq
 vK
 JE
-JE
+sg
 hv
-IM
 JE
+sg
 hv
-IM
 vK
 Om
+pj
 ES
 FP
 FP
@@ -102002,14 +102084,14 @@ jT
 jT
 vK
 JE
-JE
-If
 AS
-JE
 If
+JE
 AS
+If
 vK
 Om
+pj
 Wl
 FP
 FP
@@ -102252,21 +102334,21 @@ uT
 uT
 uY
 uY
-uY
-uY
 jT
 JE
 JE
 JE
+vK
 JE
 JE
+sg
 hv
-IM
 JE
+sg
 hv
-IM
 vK
 Om
+pj
 qt
 FP
 FP
@@ -102509,21 +102591,21 @@ uY
 uY
 uY
 uY
-uY
-uY
 jT
 JE
 JE
 JE
-JE
-JE
-If
-AS
-JE
-If
-AS
 vK
-Bm
+JE
+JE
+AS
+If
+JE
+AS
+If
+vK
+Om
+EK
 NQ
 FP
 FP
@@ -102766,8 +102848,6 @@ uY
 uY
 uY
 uY
-uY
-uY
 jT
 JE
 JE
@@ -102775,11 +102855,13 @@ JE
 JE
 JE
 JE
+sg
+hv
 JE
-JE
-JE
-JE
+sg
+hv
 vK
+pj
 Wn
 eR
 nz
@@ -103023,8 +103105,6 @@ uY
 uY
 uY
 uY
-uY
-uY
 jT
 JE
 JE
@@ -103032,11 +103112,13 @@ JE
 JE
 JE
 JE
-JE
-JE
-JE
-JE
+Bm
+TW
+ps
+Bm
+TW
 vK
+eR
 eR
 eR
 Fn
@@ -103280,20 +103362,20 @@ uY
 uY
 uY
 uY
-uY
-uY
 jT
 JE
 JE
 JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
 vK
+JE
+JE
+IM
+hv
+JE
+sg
+tu
+vK
+YL
 uY
 jT
 jT
@@ -103537,20 +103619,20 @@ uY
 uY
 uY
 uY
-uY
-uY
 jT
+JE
+JE
+JE
+vK
+JE
+JE
+Ht
+Pj
+JE
+Ht
+Pj
 jT
-jT
-jT
-jT
-jT
-jT
-jT
-jT
-jT
-jT
-jT
+YL
 uY
 jT
 Nr
@@ -103794,18 +103876,18 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+jT
+jT
+jT
+jT
+JE
+JE
+jT
+jT
+jT
+jT
+jT
 uY
 uY
 uY
