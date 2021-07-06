@@ -35,6 +35,13 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/carpet,
 /area/service/chapel/office)
+"aj" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/space)
 "am" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Garden Maintenance";
@@ -267,6 +274,9 @@
 "bq" = (
 /turf/open/floor/iron/freezer,
 /area/space)
+"br" = (
+/turf/open/openspace,
+/area/space)
 "bu" = (
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/wood,
@@ -314,6 +324,12 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
 /area/hallway/secondary/entry)
+"bE" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "bF" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L4"
@@ -796,6 +812,13 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"eA" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/space)
 "eD" = (
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
@@ -914,6 +937,11 @@
 	},
 /turf/open/floor/wood,
 /area/hallway/secondary/entry)
+"fF" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced,
+/turf/open/floor/grass,
+/area/space)
 "fG" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -1504,6 +1532,12 @@
 "iL" = (
 /turf/closed/wall,
 /area/service/lawoffice)
+"iM" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "iR" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 6
@@ -1573,6 +1607,12 @@
 	pixel_x = 5
 	},
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"jk" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/space)
 "jm" = (
 /obj/machinery/door/airlock{
@@ -2033,6 +2073,10 @@
 "ma" = (
 /turf/closed/wall,
 /area/commons/storage/art)
+"mb" = (
+/obj/structure/railing,
+/turf/open/floor/iron,
+/area/space)
 "me" = (
 /obj/structure/chair/sofa/right,
 /obj/item/toy/plush/moth,
@@ -2269,6 +2313,16 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"nt" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/space)
 "nv" = (
 /turf/open/floor/iron,
 /area/commons/storage/primary)
@@ -2385,6 +2439,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet,
 /area/space)
+"oC" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass,
+/area/space)
 "oE" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/under/suit/tan,
@@ -2472,6 +2533,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/main)
+"oV" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/pointybush,
+/turf/open/floor/grass,
+/area/space)
 "oW" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2562,6 +2630,13 @@
 "pu" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"pv" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/floor/grass,
 /area/space)
 "pw" = (
 /obj/machinery/light/directional/west,
@@ -3900,6 +3975,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"wH" = (
+/obj/structure/railing/corner,
+/turf/open/floor/iron,
+/area/space)
 "wJ" = (
 /obj/machinery/computer/security/mining,
 /obj/machinery/computer/security/telescreen/entertainment{
@@ -4994,6 +5073,14 @@
 	dir = 4
 	},
 /area/service/chapel/main)
+"CQ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/floor/grass,
+/area/space)
 "CR" = (
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/iron,
@@ -5938,6 +6025,13 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"HN" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner,
+/turf/open/floor/iron,
+/area/space)
 "HU" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	dir = 8;
@@ -6018,6 +6112,13 @@
 	pixel_y = -28
 	},
 /turf/open/floor/iron/freezer,
+/area/space)
+"Iw" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/grass,
 /area/space)
 "Ix" = (
 /obj/effect/turf_decal/stripes/line{
@@ -6907,6 +7008,12 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"Nm" = (
+/obj/structure/industrial_lift{
+	id = "arrivalsElevator"
+	},
+/turf/open/openspace,
+/area/space)
 "Nn" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -7150,6 +7257,10 @@
 /obj/machinery/smartfridge,
 /turf/open/floor/iron,
 /area/space)
+"OG" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass,
+/area/space)
 "OH" = (
 /obj/structure/plasticflaps/opaque{
 	name = "Service Deliveries"
@@ -7307,6 +7418,11 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/security/courtroom)
+"PA" = (
+/obj/structure/window/reinforced,
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/floor/grass,
+/area/space)
 "PC" = (
 /obj/machinery/shower{
 	dir = 8
@@ -9016,6 +9132,10 @@
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/wood,
 /area/service/cafeteria)
+"XG" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/space)
 "XH" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 10
@@ -92037,16 +92157,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Rf
 Nr
 Nr
@@ -92294,16 +92414,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 yG
 Nr
 Nr
@@ -92551,16 +92671,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Fg
 Nr
 Nr
@@ -92808,16 +92928,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Rf
 Nr
 Nr
@@ -93065,16 +93185,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 jT
 Nr
 Nr
@@ -93322,16 +93442,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 jT
 Nr
 Nr
@@ -93579,16 +93699,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Rf
 Nr
 Nr
@@ -93836,16 +93956,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Fg
 Nr
 Nr
@@ -94093,16 +94213,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Fg
 Nr
 FZ
@@ -94350,16 +94470,16 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Rf
 Nr
 Nr
@@ -94607,17 +94727,17 @@ uY
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-jT
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+zD
 Nr
 Nr
 Nr
@@ -94864,16 +94984,16 @@ jT
 uY
 uY
 uY
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 zD
 zD
 zD
@@ -95124,13 +95244,13 @@ jT
 jT
 jT
 jT
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 zD
 Nr
 Nr
@@ -95381,13 +95501,13 @@ jT
 Ki
 Ki
 jT
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 Nr
 Nr
 Nr
@@ -95638,13 +95758,13 @@ Rf
 Ki
 Ki
 jT
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
-Nr
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 zD
 Nr
 Nr
@@ -95895,35 +96015,35 @@ Ki
 Ki
 Ki
 zD
-zD
-zD
-zD
-zD
-zD
-zD
-zD
-zD
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 zD
 Rf
 WA
+WA
 Rf
 zD
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
 jT
 uY
 wl
@@ -96159,28 +96279,28 @@ uY
 uY
 uY
 uY
-uY
 zD
 Nr
 Nr
 Nr
+Nr
 zD
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
 jT
 nz
 wl
@@ -96409,35 +96529,35 @@ jT
 Ki
 Ki
 zD
-Rf
-Rf
-Rf
-Rf
-Rf
-Rf
-Rf
-Rf
+uY
+uY
+uY
+uY
+uY
+uY
+uY
 zD
 Nr
 Nr
 Nr
+Nr
 zD
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
 jT
 qd
 wl
@@ -96674,15 +96794,15 @@ Ki
 Ki
 Ki
 Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
-Ki
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
+Nr
 jT
 jT
 jT
@@ -104358,8 +104478,8 @@ uY
 uY
 uY
 uY
-uY
-uY
+jT
+jT
 Ki
 Ki
 uY
@@ -104608,14 +104728,14 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
 Ki
 Ki
 Ki
@@ -104865,20 +104985,20 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+OG
+aj
+Iw
+CQ
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
+Ki
+Ki
+jT
+jT
 uY
 uY
 uY
@@ -105122,19 +105242,19 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+fF
+br
+br
+br
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
+Ki
+jT
+jT
 uY
 uY
 uY
@@ -105379,18 +105499,18 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
-uY
+jT
+PA
+br
+br
+br
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
+jT
+jT
 uY
 uY
 uY
@@ -105636,17 +105756,17 @@ uY
 uY
 uY
 uY
-uY
-uY
-uY
-uY
+jT
+jT
+jk
+jk
+jk
+iM
 Ki
 Ki
 Ki
-Ki
-Ki
-uY
-uY
+jT
+jT
 uY
 uY
 uY
@@ -105894,15 +106014,15 @@ uY
 uY
 uY
 uY
-uY
-uY
+jT
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
+Ki
+Ki
+jT
 uY
 uY
 uY
@@ -106150,17 +106270,17 @@ uY
 uY
 uY
 uY
-uY
-uY
+jT
+jT
 Ki
 Ki
 Ki
-Ki
-Ki
-uY
-uY
-uY
-uY
+wH
+bE
+HN
+bE
+jT
+jT
 uY
 uY
 uY
@@ -106406,18 +106526,18 @@ uY
 uY
 uY
 uY
-uY
-uY
+jT
+jT
 Ki
 Ki
 Ki
 Ki
-Ki
-uY
-uY
-uY
-uY
-uY
+mb
+Nm
+Nm
+Nm
+oV
+jT
 uY
 uY
 uY
@@ -106662,19 +106782,19 @@ Ki
 uY
 uY
 uY
-uY
-uY
+jT
+jT
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
-uY
-uY
-uY
-uY
+mb
+Nm
+Nm
+Nm
+oC
+jT
 uY
 uY
 uY
@@ -106917,21 +107037,21 @@ jT
 Ki
 Ki
 Ki
-uY
-uY
-uY
+jT
+jT
+jT
 Ki
 Ki
 Ki
 Ki
 Ki
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+Ki
+Ki
+nt
+eA
+pv
+XG
+jT
 uY
 uY
 uY
@@ -107181,14 +107301,14 @@ Ki
 Ki
 Ki
 Ki
-uY
-uY
-uY
-uY
-uY
-uY
-uY
-uY
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
 uY
 uY
 uY
@@ -107437,8 +107557,8 @@ Ki
 Ki
 Ki
 Ki
-uY
-uY
+jT
+jT
 uY
 uY
 uY
@@ -107693,8 +107813,8 @@ Ki
 Ki
 Ki
 Ki
-uY
-uY
+jT
+jT
 uY
 uY
 uY
@@ -107950,7 +108070,7 @@ uY
 Ki
 Ki
 Ki
-uY
+jT
 uY
 uY
 uY
@@ -108207,8 +108327,8 @@ Ki
 Ki
 Ki
 Ki
-uY
-uY
+jT
+jT
 uY
 uY
 uY
